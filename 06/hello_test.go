@@ -6,9 +6,8 @@ import (
 )
 
 func TestHello(t *testing.T) {
-	want := "Hello Gophers!"
+	want := "Howdy, Gopherinos!"
 	got := hello.Greeting()
-
 	if want != got {
 		t.Errorf("Wanted %v, got %v", want, got)
 	}
